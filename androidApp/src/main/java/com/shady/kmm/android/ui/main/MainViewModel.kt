@@ -5,9 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.shady.kmm.android.BuildConfig
-import com.shady.kmm.entity.Banners
 import com.shady.kmm.entity.BannersList
-import com.shady.kmm.entity.MainScreen
 import com.shady.kmm.entity.MainScreenList
 import com.shady.kmm.repository.MainScreenRepo
 import kotlinx.coroutines.launch

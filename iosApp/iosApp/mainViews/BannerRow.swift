@@ -29,8 +29,7 @@ struct BannerRow: View {
                                 case .success(let image):
                                     image
                                         .resizable()
-                                        .aspectRatio(contentMode: .fill)
-                                        .frame(width: 122, height: 100)
+                                        .aspectRatio(contentMode: .fit)
                                 case .failure:
                                     Text("Will load a place holder image") 
                                 @unknown default:

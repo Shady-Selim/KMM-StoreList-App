@@ -11,9 +11,11 @@ import shared
 
 struct BannerApiRow: View {
     let bannerData: [BannersList]
+    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State private var currentImgIndex = 0
     
     var body: some View {
-        TabView {
+        TabView(selection: $currentImgIndex) {
             ForEach(0..<bannerData.count, id: \.self) { i in
                 if #available(iOS 15.0, *) {
                     Button(action: {
@@ -31,5 +33,12 @@ struct BannerApiRow: View {
                 }
             }
         }.tabViewStyle(PageTabViewStyle()).frame(height: 200)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .padding(16)
+            .onReceive(timer, perform: { _ in
+                withAnimation {
+                    currentImgIndex = currentImgIndex < bannerData.count ? currentImgIndex + 1 : 0
+                }
+            })
     }
 }

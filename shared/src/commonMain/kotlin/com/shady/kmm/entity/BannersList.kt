@@ -18,5 +18,5 @@ data class BannersList (
     val link : String,
     val level : String,
     val is_available : Boolean,
-    val branch : Int
+    val branch : Int? = 0
 )
