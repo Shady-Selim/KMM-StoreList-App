@@ -29,7 +29,7 @@ Libraries and technologies used:
 I needed to test the updates on Kotlin Multiplatform Mobile (KMM) since my last visit to it, and to be frank I am so amazed how easier it make and the qualify of my code.
 
 ## :camera_flash: Screenshots
-<img src="/images/KMM_Android.gif" width="260">&emsp;<img src="/images/KMM_iOS.gif" width="260">
+<img src="/KMM_Android.gif" width="260">&emsp;<img src="/KMM_iOS.gif" width="260">
 
 ## License
 ```
