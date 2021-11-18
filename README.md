@@ -7,23 +7,23 @@ My new visit to KMM and creating an example StoreList App (Kotlin Multiplaform M
 ## :scroll: Description
 Libraries and technologies used:
  - Android:
-  - Jetpack Compose
-  - Jetpack ViewModel
-  - Compose Material
-  - Compose Animation
-  - Compose ViewModel Lifecycle
-  - Compose LiveData
-  - Compose Pager
-  - Compose Pager Indicators
-  - Coroutines
+   - Jetpack Compose
+   - Jetpack ViewModel
+   - Compose Material
+   - Compose Animation
+   - Compose ViewModel Lifecycle
+   - Compose LiveData
+   - Compose Pager
+   - Compose Pager Indicators
+   - Coroutines
  - iOS:
-  - SwiftUI
-  - Swift Combine
+   - SwiftUI
+   - Swift Combine
  - Shared: 
-  - Coroutines
-  - Serialization
-  - ktor
-  - ktor Serialization
+   - Coroutines
+   - Serialization
+   - ktor
+   - ktor Serialization
 
 ## :bulb: Motivation and Context
 I needed to test the updates on Kotlin Multiplatform Mobile (KMM) since my last visit to it, and to be frank I am so amazed how easier it make and the qualify of my code.
